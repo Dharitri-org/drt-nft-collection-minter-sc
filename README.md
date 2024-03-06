@@ -1,0 +1,1 @@
+# drt-nft-collection-minter-sc
