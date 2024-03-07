@@ -1,1 +1,1 @@
-# sc-nft-collection-minter
+# sc-nft-collection-minter.
