@@ -1,0 +1,11 @@
+[package]
+name = "dct-system-sc-mock-meta"
+version = "0.0.0"
+authors = ["Dorin Marian Iancu <dorin.iancu@dharitri.com>"]
+edition = "2018"
+publish = false
+[dependencies.dct-system-sc-mock]
+path = ".."
+
+[dependencies.dharitri-sc-meta]
+version = "0.12.3"

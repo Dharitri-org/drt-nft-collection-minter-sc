@@ -1,0 +1,11 @@
+[workspace]
+members = [
+  "nft-minter",
+  "nft-minter/meta",
+  "nft-minter-deployer",
+  "nft-minter-deployer/meta",
+  "royalties-handler",
+  "royalties-handler/meta",
+  "dct-system-sc-mock",
+  "dct-system-sc-mock/meta"
+]

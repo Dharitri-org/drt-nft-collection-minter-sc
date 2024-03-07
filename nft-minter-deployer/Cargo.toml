@@ -1,0 +1,21 @@
+[package]
+name = "nft-minter-deployer"
+version = "0.0.0"
+authors = ["Dharitri <contact@dharitri.com>"]
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.nft-minter]
+path = "../nft-minter"
+
+[dependencies.dharitri-sc]
+version = "=0.12.3"
+
+[dependencies.dharitri-sc-modules]
+version = "0.12.3"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.12.3"

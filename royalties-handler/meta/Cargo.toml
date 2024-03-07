@@ -1,0 +1,13 @@
+[package]
+name = "royalties-handler-meta"
+version = "0.0.0"
+edition = "2018"
+publish = false
+authors = ["Dorin Marian Iancu, dorin.iancu@dharitri.com"]
+
+[dev-dependencies]
+[dependencies.royalties-handler]
+path = ".."
+
+[dependencies.dharitri-sc-meta]
+version = "0.12.3"

@@ -1,0 +1,25 @@
+[package]
+name = "royalties-handler"
+version = "0.0.0"
+authors = ["Dorin Marian Iancu, dorin.iancu@dharitri.com"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+[dependencies.nft-minter]
+path = "../nft-minter"
+
+[dependencies.dharitri-sc]
+version = "0.12.3"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+num-traits = "0.2"
+hex = "0.4"
+
+[dev-dependencies.dct-system-sc-mock]
+path = "../dct-system-sc-mock"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.12.3"
